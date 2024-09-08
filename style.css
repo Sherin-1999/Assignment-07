@@ -1,0 +1,119 @@
+*{margin: 0;
+  padding: 0;
+}
+.menu ul{
+    display:inline-flex;
+    padding: 14px 50px;
+  list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px
+}
+.menu{
+    height: 47px;
+    background-color: cadetblue;  
+    width: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 11111111;
+}
+.part-1{
+    margin: 50px 0px;
+    display: block;
+    background-color: #abcdcd;
+    height: 125px;
+}
+.part-2{
+    margin: 50px 0px;
+    display:inline;
+    background-color: #abcdcd;
+    height: 125px;
+}
+.part-3{
+    margin: 50px 0px;
+    display:inline-block;
+    background-color: #abcdcd;
+    height: 125px;
+}
+.relative{
+    position: relative;
+    margin: 10px 100px;
+    background-color:green;
+    height: 156px;
+    width: 250px;
+}
+.absolute{
+    position: absolute;
+    margin: 10px 100px;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    top: 521px;
+    left: 70px;
+    border-radius: 50%;
+}
+.absolute-position{
+    border: 20px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+.relative-position1{
+    border: 20px solid rgb(35, 15, 125);
+    height: 200px;
+    width: 200px;
+    margin: 74px 393px;
+    position: relative;
+    z-index: 1;
+}
+.relative-position{
+    border: 20px solid rgb(53, 242, 62);
+    height: 200px;
+    width: 200px;
+    position:relative;
+    z-index: -1;
+    top: -240px;
+    left: 473px;
+}
+.flex-container{
+    background-color: darkkhaki;
+    display: flex;
+    font-size: 33px;
+    margin-left: 200px;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.flex-container div{
+    background-color: rgb(10, 94, 94);
+    margin: 10px 92px;
+    color: white; 
+    text-align: center;
+    height: 40px;
+    width: 64px;
+}
+.Responsive-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 33px;
+    text-align: center;
+    background-color: black;
+    align-items:center;
+    justify-content: center;
+}
+.Responsive-flexbox div{
+    background-color: gold;
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+    margin: 16px 40px ;
+    text-align: center; 
+}
+
+
